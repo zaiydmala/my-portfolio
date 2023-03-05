@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Inter:wght@200&family=Sono:wght@300;500&display=swap'); 
+
+
+:root {
+  font-family: "Fira Code";
+}
+html {
+  scroll-behavior: smooth;
+}
+span {
+  color: #3d997d;
+}
+
+#projects {
+ 
+    /* Set the default background color */
+    background-color: #f7fafc;
+  
+    /* Add a gradient overlay */
+    background-image: linear-gradient(to bottom, #f7fafc, #edf2f7);
+  
+    /* Add a repeating pattern overlay using CSS gradients */
+    background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 50%, #eee 50%, #eee 75%, transparent 75%, transparent),
+                       linear-gradient(-45deg, #eee 25%, transparent 25%, transparent 50%, #eee 50%, #eee 75%, transparent 75%, transparent);
+    background-size: 20px 20px;
+  
+  
+}
+
+.project-sort-button {
+  border: #3d997d 2px solid;
+  background-color: #3d997d;
+  color: white;
+  
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.project-sort-button:active {
+  transform: translateX(1rem);
+}
+
