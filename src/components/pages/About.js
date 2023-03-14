@@ -20,27 +20,30 @@ const About = () => {
           alt="profile"
         />
         <p className="max-w-sm font-medium text-white sm:text-sm">
-          I'm a passionate programmer that enjoys the thrill of
-          learning. I have a passion to create interactive and minimalist web designs 
+          I'm a programmer that enjoys the thrill of
+          learning with a passion to create interactive and minimalist web designs 
           that are visually appealing and easy to use.
           I love applying responsive design principles and watching my webpages shrink into mobile screens and still look amazing. 
           It feels oddly satisfying. I think in a way I am kind of like those web pages;<br/><br/>
-          <span>I am moldable, but I still keep my creative flare intact🔥</span>
-          
+          <span>I am moldable, but I still keep my creative flare intact 🔥</span><br/><br/>
+          Click here for my{" "}
+          <span>
+            <a href="https://drive.google.com/file/d/1SFI3StDbgbJgZiK5807YfrVhaeVjwD7p/view?usp=share_link" target="_blank" rel="noreferrer">
+              Resume
+            </a>
+          </span>
+
         </p>
         
 
-        <p className="max-w-sm font-medium text-white">  
-          { /* I yearn to build products that solve real life problems, and
-          have a positive impact in society at large. Talk to me if you need
-          someone with the commitment and eagerness to push your product ahead. */ }
+        {/* <p className="max-w-sm font-medium text-white">
            Click here for my{" "}
           <span>
             <a href="https://drive.google.com/file/d/1bmmmHys9qyAPDQPZDvY2f5mY6AY6pa1k/view?usp=share_link" target="_blank" rel="noreferrer">
               Resume
             </a>
           </span>
-        </p>
+        </p> */}
       </div>
     </section>
   );
