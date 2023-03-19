@@ -12,7 +12,7 @@ const About = () => {
         <br />
         World
       </h5>
-      <div className="flex  flex-col items-center gap-10">
+      <div className="flex  flex-col items-center gap-4">
         <img
           src={ProfilePic}
           className="w-48 rounded-full md:w-56"
@@ -30,18 +30,7 @@ const About = () => {
               Resume
             </a>
           </span>
-
         </p>
-        
-
-        {/* <p className="max-w-sm font-medium text-white">
-           Click here for my{" "}
-          <span>
-            <a href="https://drive.google.com/file/d/1bmmmHys9qyAPDQPZDvY2f5mY6AY6pa1k/view?usp=share_link" target="_blank" rel="noreferrer">
-              Resume
-            </a>
-          </span>
-        </p> */}
       </div>
     </section>
   );
