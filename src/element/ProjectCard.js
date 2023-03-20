@@ -153,7 +153,7 @@ const ProjectCard = (props) => {
         <button className="hover:bg-gray-900">
           {" "}
           <a
-            href="https://showerrthoughts.vercel.app"
+            href="https://showerthoughtts.vercel.app"
             target="_blank"
             rel="noreferrer"
             alt="Repositoty"
