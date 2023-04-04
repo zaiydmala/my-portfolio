@@ -26,7 +26,7 @@ const About = () => {
           It feels oddly satisfying. In a way I am kind of like those web pages;<span> I am moldable, but I still keep my creative flare intact🔥</span><br/><br/>
           Click here for my{" "}
           <span>
-            <a href="https://drive.google.com/file/d/1SFI3StDbgbJgZiK5807YfrVhaeVjwD7p/view?usp=share_link" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1Ed3SEFLIn6vgm-OAy4G1JF_uqgl7D5SZ/view?usp=share_link" target="_blank" rel="noreferrer">
               Resume
             </a>
           </span>
