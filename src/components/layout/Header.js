@@ -10,7 +10,7 @@ const Header = () => {
       <section className="flex flex-col gap-5 px-1 md:gap-10">
         <h1 className="text-2xl font-bold text-white sm:text-4xl lg:text-6xl">
           Hi,
-          <br /> my name is <span>Zaiyd</span>,<br /> I'm a Front-end Developer
+          <br /> my name is <span>Zaiyd</span>,<br /> I'm a Web Developer
         </h1>
         <div className="flex items-center">
           <img src={LocationIcon} className="w-6" alt="" />{" "}
