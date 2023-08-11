@@ -4,6 +4,7 @@ import noteItDownGif from "../../src/assets/noteitdownnew.gif";
 import rpsGif from "../../src/assets/rpsnew.gif";
 import weatherAppGif from "../../src/assets/weatherappnew.gif";
 import showerThoughtsGif from "../../src/assets/showerthoughtsnew.gif";
+import netflixGif from "../../src/assets/netflixnew.gif";
 import dndGif from "../../src/assets/dungeonsanddragonsnew.gif";
 const ProjectCard = (props) => {
   return (
@@ -83,6 +84,131 @@ const ProjectCard = (props) => {
           NoteItDown, built using Javascript and data-fns to store notes on local storage.
         </p>
       </div>
+
+      <div
+        className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "layout") &&
+            "block") ||
+          "translate-x-60 opacity-0"
+        }`}
+        style={{ backgroundColor: "#3d997d" }}
+      >
+        <img
+          src={netflixGif}
+          alt="weathernetflix clone project"
+          className={`col-span-2 rounded-t  `}
+        />
+
+        <button className="hover:bg-gray-900">
+          {" "}
+          <a
+            href="https://github.com/zaiydmala/weather-app"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repository"
+          >
+            Repository{" "}
+          </a>
+        </button>
+
+        <button className="hover:bg-gray-900">
+          {" "}
+          <a
+            href="https://zaiyds-netflix-clone.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Live
+          </a>
+        </button>
+
+        <p className="col-span-2 p-4">
+          Netflix clone, built with react, styled components and custom hooks
+        </p>
+      </div>
+
+      <div
+        className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "layout") &&
+            "block") ||
+          "translate-y-60 opacity-0"
+        }`}
+        style={{ backgroundColor: "#3d997d" }}
+      >
+        <img
+          src={showerThoughtsGif}
+          alt="admin dashboard"
+          className={`col-span-2 rounded-t  `}
+        />
+        <button className="hover:bg-gray-900">
+          <a
+            href="https://github.com/zaiydmala/shower-thoughts"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Repository
+          </a>
+        </button>
+        <button className="hover:bg-gray-900">
+          {" "}
+          <a
+            href="https://showerthoughtts.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Live
+          </a>
+        </button>
+        <p className="col-span-2 p-4">
+          A social media feed built with ReactJS and Firebase for backend and authentication.
+        </p>
+      </div>
+
+      <div
+        className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "logic") &&
+            "block") ||
+          "-translate-x-60 opacity-0"
+        }`}
+        style={{ backgroundColor: "#3d997d" }}
+      >
+        <img
+          src={rpsGif}
+          alt="rock paper scissors project"
+          className={`col-span-2 rounded-t  `}
+        />
+        <button className="hover:bg-gray-900">
+          <a
+            href="https://github.com/zaiydmala/rock-paper-scissors"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Repository
+          </a>
+        </button>
+        <button className="hover:bg-gray-900">
+          {" "}
+          <a
+            href="https://zaiydmala.github.io/rock-paper-scissors"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repository"
+          >
+            Live
+          </a>
+        </button>
+        <p className="col-span-2 p-4">
+          Play classic rock, paper, scissors game built using Vanilla Javascript.
+        </p>
+      </div>
+
       <div
         className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
           ((props.projectFocusSelected === "all" ||
@@ -126,122 +252,7 @@ const ProjectCard = (props) => {
           WeatherApp, uses HTML geolocation and fetches data from openweather API.
         </p>
       </div>
-      <div
-        className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
-          ((props.projectFocusSelected === "all" ||
-            props.projectFocusSelected === "layout") &&
-            "block") ||
-          "translate-y-60 opacity-0"
-        }`}
-        style={{ backgroundColor: "#3d997d" }}
-      >
-        <img
-          src={showerThoughtsGif}
-          alt="admin dashboard"
-          className={`col-span-2 rounded-t  `}
-        />
-        <button className="hover:bg-gray-900">
-          <a
-            href="https://github.com/zaiydmala/shower-thoughts"
-            target="_blank"
-            rel="noreferrer"
-            alt="Repositoty"
-          >
-            Repository
-          </a>
-        </button>
-        <button className="hover:bg-gray-900">
-          {" "}
-          <a
-            href="https://showerthoughtts.vercel.app"
-            target="_blank"
-            rel="noreferrer"
-            alt="Repositoty"
-          >
-            Live
-          </a>
-        </button>
-        <p className="col-span-2 p-4">
-          A social media feed built with ReactJS and Firebase for backend and authentication.
-        </p>
-      </div>
-      <div
-        className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
-          ((props.projectFocusSelected === "all" ||
-            props.projectFocusSelected === "logic") &&
-            "block") ||
-          "-translate-x-60 opacity-0"
-        }`}
-        style={{ backgroundColor: "#3d997d" }}
-      >
-        <img
-          src={rpsGif}
-          alt="rock paper scissors project"
-          className={`col-span-2 rounded-t  `}
-        />
-        <button className="hover:bg-gray-900">
-          <a
-            href="https://github.com/zaiydmala/rock-paper-scissors"
-            target="_blank"
-            rel="noreferrer"
-            alt="Repositoty"
-          >
-            Repository
-          </a>
-        </button>
-        <button className="hover:bg-gray-900">
-          {" "}
-          <a
-            href="https://zaiydmala.github.io/rock-paper-scissors"
-            target="_blank"
-            rel="noreferrer"
-            alt="Repository"
-          >
-            Live
-          </a>
-        </button>
-        <p className="col-span-2 p-4">
-          Play classic rock, paper, scissors game built using Vanilla Javascript.
-        </p>
-      </div>
-      <div
-        className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
-          ((props.projectFocusSelected === "all" ||
-            props.projectFocusSelected === "logic") &&
-            "block") ||
-          "translate-x-60 opacity-0"
-        }`}
-        style={{ backgroundColor: "#3d997d" }}
-      >
-        <img
-          src={dndGif}
-          alt="block talk project animated"
-          className={`col-span-2 rounded-t  `}
-        />
-        <button className="hover:bg-gray-900">
-          <a
-            href="https://github.com/zaiydmala/dungeonsanddragons"
-            target="_blank"
-            rel="noreferrer"
-            alt="Repositoty"
-          >
-            Repository
-          </a>
-        </button>
-        <button className="hover:bg-gray-900">
-          <a
-            href="https://zaiydmala.github.io/dungeonsanddragons/"
-            target="_blank"
-            rel="noreferrer"
-            alt="Repositoty"
-          >
-            Live
-          </a>
-        </button>
-        <p className="col-span-2 p-4">
-          WizardvMonsters - designed by learning Factory functions, classes & closures.
-        </p>
-      </div>
+
     </section>
   );
 };
