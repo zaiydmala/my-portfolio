@@ -5,7 +5,7 @@ import rpsGif from "../../src/assets/rpsnew.gif";
 import weatherAppGif from "../../src/assets/weatherappnew.gif";
 import showerThoughtsGif from "../../src/assets/showerthoughtsnew.gif";
 import netflixGif from "../../src/assets/netflixnew.gif";
-import dndGif from "../../src/assets/dungeonsanddragonsnew.gif";
+
 const ProjectCard = (props) => {
   return (
     <section className="grid gap-10 sm:gap-2 md:grid-cols-2 lg:grid-cols-3">
