@@ -20,11 +20,10 @@ const About = () => {
           alt="profile"
         />
         <p className="max-w-xs font-medium text-white sm:text-sm">
-          I'm a programmer who yearns to build products that solve real-life problems and have a positive impact in society.
-          Big fan of applying responsive design principles and watching my webpages shrink into mobile screens yet still look amazing. 
+          I'm a programmer who yearns to build products that solve real-life problems and have a positive impact on the world.
+          I'm a big fan of applying responsive design principles and watching my webpages shrink into mobile screens yet still look amazing. 
           It feels oddly satisfying. 
-        </p>
-        <p className="max-w-xs font-medium text-white sm:text-sm">
+       
           In a way I am kind of like those web pages;<span> I am moldable, but I still keep my creative flare intact🔥</span><br/><br/>
           Click here for my{" "}
           <span>
