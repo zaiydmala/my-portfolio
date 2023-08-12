@@ -103,7 +103,7 @@ const ProjectCard = (props) => {
         <button className="hover:bg-gray-900">
           {" "}
           <a
-            href="https://github.com/zaiydmala/weather-app"
+            href="https://github.com/zaiydmala/netflix-clone"
             target="_blank"
             rel="noreferrer"
             alt="Repository"
